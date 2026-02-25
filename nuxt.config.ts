@@ -11,7 +11,7 @@ export default defineNuxtConfig({
     staging: {},
   },
   devServer: {
-    port: 6969,
+    port: 42069,
   },
   runtimeConfig: {
     apiSecret: "secret",
