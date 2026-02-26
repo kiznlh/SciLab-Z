@@ -1,0 +1,22 @@
+@import "./base.css";
+
+* {
+  margin: 0;
+}
+
+.page-link {
+  display: inline-block;
+  min-height: 100px;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  color: var(--super-white);
+  border: 1px solid var(--light-grey-4);
+  border-radius: 0.5rem;
+  background-color: var(--dark-grey-1);
+  text-decoration: none;
+}
+
+.page-link-row {
+  display: flex;
+  width: 100vw;
+}
